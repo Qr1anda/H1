@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6 {
+font-family: Verdana, Geneva, sans-serif;
+margin-top: 2em;
+margin-bottom: 1.2em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+table {
+   border-collapse: collapse;
+   /*убираем пустые промежутки между ячейками*/
+   border: 1px solid black;
+   /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+
+th, td {
+   border: 1px solid black;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.top {
+  z-index: 2;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+}
+
+.content {
+  z-index: 0;
+  width: 70%;
+  /* text-align: 80%; */
+  padding: 15%;
+}
+
+.rightimg  {
+ float: right;
+ margin: 10px 0 10px 10px;
+}
